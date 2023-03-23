@@ -41,8 +41,13 @@ Supervised learning, also known as supervised machine learning, is a subcategory
   - csv loaded into pandas dataframe
   - data is separated into features (X) and labels (y)
   - Sklearn train_test_split function used to split dataset into training data and test data (default split of 75% for training and 25% for testing. stratify=y specified to maintain the ratio of healthy and unhealthy loans in the train and test splits)
-  - 
-  - 
-  ![image](https://user-images.githubusercontent.com/113957254/227218403-2ba802cc-2bad-475a-8d54-4ce1e812ccb3.png)
+  - Instantiate LogisticRegression model and fit it with training data.
+  - Use test feature data and get predictions of the labels.
+  - Evaluate the performance using accuracy score, confusion matrix and classification report.
+  - Image of classification report shown below:
+  <div><img align=left width=600px height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/classification_report.png"></div>
+  
+ #### Summary
+  
 
   
