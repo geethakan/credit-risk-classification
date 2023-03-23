@@ -44,10 +44,21 @@ Supervised learning, also known as supervised machine learning, is a subcategory
   - Instantiate LogisticRegression model and fit it with training data.
   - Use test feature data and get predictions of the labels.
   - Evaluate the performance using accuracy score, confusion matrix and classification report.
-  - Image of classification report shown below:
-  <div><img align=left width=600px height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/classification_report.png"></div>
+  - Image of classification report and confusion  matrix from results shown below:
+  <div id-image-table> <table> <tr>
+  <td><img align=left width=600px height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/classification_report.png"></td>
+  <td><img align=right width=350px, height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/cm_heatmap.png"></td>
+  </tr> </table> </div>
   
- #### Summary
+  
+  #### Summary
+   - i
+   - t
+   - three
+   
+  
+  
+
   
 
   
