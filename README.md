@@ -47,18 +47,19 @@ Supervised learning, also known as supervised machine learning, is a subcategory
   - Image of classification report and confusion  matrix from results shown below:
   <div id-image-table> <table> <tr>
   <td><img align=left width=600px height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/classification_report.png"></td>
-  <td><img align=right width=350px, height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/cm_heatmap.png"></td>
+  <td><img align=right width=350px, height=300px src="https://github.com/geethakan/credit-risk-classification/blob/main/Credit_Risk/Resources/conmatrix_heatmap.png"></td>
   </tr> </table> </div>
   
   
   #### Summary
-   - i
-   - t
-   - three
-   
+   - 0 value refers to Healthy loans and 1 symbolizes High-risk loans. 
+   - Accuracy score for training data was 99.15% and testing was 99.24 signifying the model to be very good.
+   - Confusion matrix reveals the count of tests where observations are classified incorrectly. False negative of 80 where high-risk loans were identified as healthy and False positive where 67 healthy loans were classified as high-risk.
+   - Classification report states F1 score to be 100% for healthy loans. 88% accuracy for high-risk category.
+   - Count and report scores suggest that the model is not very good. Can be taken as a good mode. Credibility of bocredirrower is being predicted here and depending on weightage required for credibility, the model can be used for the classification.
+   - If credibility of customers is utmost important, then the model has to be improved or an alternate has to be found. 
   
-  
-
+ 
   
 
   
