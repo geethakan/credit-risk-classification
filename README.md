@@ -9,9 +9,40 @@ Supervised learning, also known as supervised machine learning, is a subcategory
 
  - A classification algorithm aims to sort inputs into a given number of categories or classes, based on the labeled data it was trained on. Classification algorithms can be used for binary classifications for eg. categorizing customer feedback as positive or negative, categorizing emails into spam or non-spam etc. 
  - Regression analysis is a powerful statistical method that allows one to examine the relationship between two or more variables of interest. Regression can be linear or logistic regression.
-    - Linear Regression is used to handle regression problems. Linear regression provides a continuous output.
-    - Logistic regression is used to handle the classification problems.  Logistic regression provides discreet output.  
+    - Linear Regression is used to handle regression problems and provides a continuous output.
+    - Logistic regression is used to handle the classification problems and provides discreet output.  
  
  
- ### Overview of Analysis
- Logistic Regression model is used here to statistically analyze historical lending activity to 
+ ### Steps involved in this Logistic Regression modelling
+  #### Purpose
+  Create a logistic regression model and train using about 75% of the dataset. Use 25% of data to test the results. Run classification report to analyze results and conclude on the strength of the model for predicting new data.
+  
+  #### Dataset
+  Following were the fields used from csv of lending information
+   - Income of borrower
+   - Loan Amount 
+   - Loan rate 
+   - Total debt 
+   - Income to debt ratio
+   - Number of accounts
+   - Count of derogatory marks
+   - Loan Status - 0 = healthy and 1 = high-risk
+   
+   Total records in dataset: 77536
+   - Healthy loans: 75036   High-risk: 2500
+   
+   Training counts:
+   - Healthy: 56277         High-risk: 1875
+   
+   Testing counts:
+   - Healthy: 18759        High-risk: 625
+   
+  #### Machine Learning
+  - csv loaded into pandas dataframe
+  - data is separated into features (X) and labels (y)
+  - Sklearn train_test_split function used to split dataset into training data and test data (default split of 75% for training and 25% for testing. stratify=y specified to maintain the ratio of healthy and unhealthy loans in the train and test splits)
+  - 
+  - 
+  ![image](https://user-images.githubusercontent.com/113957254/227218403-2ba802cc-2bad-475a-8d54-4ce1e812ccb3.png)
+
+  
